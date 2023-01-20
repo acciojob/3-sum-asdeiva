@@ -1,6 +1,6 @@
 function threeSum(arr, target) {
   //your code here
-	for (t in arr){
+	for (t of arr){
 		let sum=0;
 		let ans=0;
 		sum+=arr[t];
